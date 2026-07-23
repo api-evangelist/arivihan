@@ -1,8 +1,24 @@
 aid: arivihan
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arivihan.png
 name: Arivihan
-description: 'Arivihan is a company surfaced as a portfolio company of accel, prosus-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Arivihan is an Indian EdTech company operating an AI-based, fully automated online learning
+  platform that gives each K-12 school student a personalized "tutor in their pocket." It targets low-
+  and middle-income families and students in Tier 2+ cities, delivering interactive, personalized
+  lectures and doubt resolution in vernacular languages at roughly 10% of typical coaching fees. Products
+  include the DoubtBuzzter mobile app and the tutor-prod / InstantGuru doubt-resolution web platform. The
+  company was surfaced as a portfolio company of accel and prosus-ventures. No public API or developer
+  surface was found during enrichment; this remains a consumer-facing product profile.'
 url: https://raw.githubusercontent.com/api-evangelist/arivihan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai
+- Education
+- EdTech
+- E-Learning
+- Online Learning
+- Tutoring
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/arivihan-domain-security.yml
 - type: Website
   url: https://arivihan.com/about
+- type: Blog
+  url: https://arivihan.com/blogs
+- type: Support
+  url: https://arivihan.com/contact
+- type: TermsOfService
+  url: https://arivihan.com/t-and-c
+- type: PrivacyPolicy
+  url: https://arivihan.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
