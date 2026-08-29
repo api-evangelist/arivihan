@@ -31,6 +31,9 @@ description: 'Arivihan is an Indian EdTech company operating an AI-based, fully 
   company was surfaced as a portfolio company of accel and prosus-ventures. No public API or developer
   surface was found during enrichment; this remains a consumer-facing product profile.'
 url: https://raw.githubusercontent.com/api-evangelist/arivihan/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "No public API or developer surface was found during enrichment; this remains a consumer-facing product profile."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
